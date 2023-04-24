@@ -1,0 +1,148 @@
+.container {
+	border-radius: 20px;
+	max-width: 100%;
+	max-height: 1250px;
+	margin: 0 0;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #98bec4;
+	box-shadow: 0px 0px 10px #958487;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header {
+	border-radius: 30px;
+	max-width: 100%;
+	max-height: 20px;
+	padding: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #90b3b9;
+	box-shadow: 0px 0px 10px #fff;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	display: flex;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 30px;
+	text-align: center;
+	padding-left: 500px;
+	margin-top: -18px;
+	position: absolute;
+	font-family: 'Bruno Ace SC', cursive;
+}
+
+.header h2 {
+	text-align: center;
+	margin-top: -6px;
+	margin-left: 20px;
+	font-size: 14px;
+	position: absolute;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.header a {
+	margin-top: 0px;
+	position: absolute;
+	right: 65px;
+	top: 45px;
+	padding: 10px;
+	background-color: #00c853;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+.header button {
+	margin-top: 0px;
+	position: absolute;
+	right: 155px;
+	top: 45px;
+	padding: 10px;
+	background-color: #00c853;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+.flex-container {
+	display: flex;
+	border-radius: 30px;
+	max-width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.flex-child {
+	flex: 1;
+	border-radius: 60px;
+	box-shadow: 0px 0px 10px #fff;
+	max-width: 100%;
+}
+
+.flex-child img {
+	border-radius: 60px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+
+.content {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.content h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Bruno Ace SC', cursive;
+}
+
+.content p {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+	color: grey;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	cursor: pointer;
+}
