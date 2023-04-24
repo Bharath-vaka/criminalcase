@@ -9,6 +9,6 @@ session_unset();
 session_destroy();
 
 // redirect to the login page
-header('Location: \elitmus/index.html');
+header('Location: \criminalcase/index.html');
 exit();
 ?>
