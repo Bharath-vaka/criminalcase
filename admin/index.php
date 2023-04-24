@@ -12,7 +12,7 @@ if ($mysqli->connect_errno) {
 $result = $mysqli->query("SELECT COUNT(*) as total_users FROM users");
 $result1 = $mysqli->query("SELECT sum(time1) as t1, sum(time2) as t2,sum(time3) as t3 FROM users");
 $result2 = $mysqli->query("SELECT sum(score1) as s1, sum(score2) as s2,sum(score3) as s3 FROM users");
-$result3 = $mysqli->query("SELECT COUNT(*) as solved FROM users where score1 >= 100 and score2 >= 100 and score2 >= 100");
+$result3 = $mysqli->query("SELECT COUNT(*) as solved FROM users where score1 >= 300 and score2 >= 100 and score2 >= 100");
 
 
 // Retrieve the count of all users from the result set
